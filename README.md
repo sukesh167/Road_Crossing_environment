@@ -1,5 +1,5 @@
 # Road_Crossing_environment
-envrionment to make an angent cross road with 50 other agents
+Envrionment to make an angent cross road with 50 other agents
 ## example code:     
 ```
 def func(printer,env,speed,position):
@@ -22,7 +22,7 @@ env[0][2] speed[0][1]  🏍 -- -- -- -- -- 🚗 -- 🛵 🏍 🚚 -- -- 🛵 �
 env[0][3] speed[0][2]  -- 🚌 -- 🚚 -- 🛵 -- -- -- 🚲 🚌 -- 🛵 🏍 🚲 🚲 🛵 🚗 🚗 -- 🚲 -- -- 🚗 🚲 -- 🚚 -- -- 🚗 -- -- 🚲 🚌 -- 🚚 🚌 🛵 🚌 -- 🚕 🛵 🚲 -- -- 🛵 🏍 🚌 -- 🚗
 env[0][4]              -- -- -- -- -- -- -- -- -- -- 01 37 05 47 32 16 -- 38 13 19 48 11 35 yp 03 29 26 -- 23 15 09 -- -- 08 27 22 -- 46 20 18 -- -- -- -- -- -- -- -- -- --    
 ```
-The idea is to cross the road using the zebra crossing along with 50 others.⋅⋅
+⋅⋅⋅The idea is to cross the road using the zebra crossing along with 50 others.⋅⋅
 write a function that returns - "up" or "down" or "left" or "right" GIVEN ENVIRONMENT, SPEED OF VEHICLES IN EACH LANE, YOUR POSITION CO-ORDINATES.
 * retruning anything other than the mentioned will get you killed.
 * the zebra crossing extends only from env[:][:][10] to env[:][:][40].
